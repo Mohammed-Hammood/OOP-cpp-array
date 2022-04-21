@@ -1,6 +1,5 @@
 #include "array.h"
 
-
 Array::Array(int N){
     a = new int[N]; n= N;
 }
@@ -98,7 +97,6 @@ Array Array::operator + (Array &X){
    }
    return newObj;
 }
-
 
 void Array:: Print(){
 cout <<endl;// << "*******************" <<endl;
@@ -283,12 +281,3 @@ void Array::ShiftLeft(int pos){
 int Array::getN(){
     return n;
 }
-
-
-
-
-
-
-
-
-
